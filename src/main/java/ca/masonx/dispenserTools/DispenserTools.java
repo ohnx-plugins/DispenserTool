@@ -72,9 +72,7 @@ public class DispenserTools extends JavaPlugin implements Listener{
                 	Inventory inv = d.getInventory();
             		
                 	for (ItemStack itm : inv.getContents()) {
-            			if (itm == null) {
-            				System.out.println("Error: Null ItemStack");
-            			} else if (itm.getType() == i.getType()) {
+            			if (itm != null && itm.getType() == i.getType()) {
             				switch (target.getType()) {
             				/* invalid */
             				case AIR:
