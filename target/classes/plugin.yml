@@ -1,0 +1,7 @@
+name: dispenserTools
+main: ca.masonx.dispenserTools.DispenserTools
+version: 0.0.1
+commands:
+  dtools:
+    description: dispenser tools
+    usage: "wat"
